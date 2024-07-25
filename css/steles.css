@@ -225,3 +225,11 @@ gap: 40;
      line-height: 1.5;
      letter-spacing: 0.02em;
  }
+
+ 
+@media screen and(min-width:768px){
+  .mobile-menu{
+    display: none;
+  }   
+}
+ 
