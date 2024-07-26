@@ -545,7 +545,7 @@ padding-top: 96px;
     }
 
     .teams{
-        max-width:((100% - 72px) / 4) ;
+        max-width:calc((100% - 72px) / 4) ;
     }
 }
 
