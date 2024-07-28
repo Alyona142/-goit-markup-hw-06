@@ -60,21 +60,39 @@
         </button>
       </div>
 
-      <div class="mobile-menu">
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">Close</button>
+      <div class="mobile-menu is-open">
+        <div class="mobile-menu-container">
+          <button class="mobile-menu-close">
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
 
-          <nav class="mobile-menu-nav">Navigatoin</nav>
+          <div class="mobile-menu-top">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link is-active" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
           <address class="mobile-cont">
             <ul class="mobile-cont-list">
               <li class="mobile-cont-item">
-                <a class="mobile-cont-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
+                <a class="mobile-cont-link is-active" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
                 >
               </li>
               <li class="mobile-cont-item">
-                <a class="mobile-cont-link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
+                <a class="mobile-cont-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
                 >
               </li>
             </ul>
@@ -109,7 +127,6 @@
               </li>
             </ul>
           </address>
-          <div></div>
         </div>
       </div>
     </header>
@@ -122,7 +139,7 @@
         </div>
       </section>
 
-      <section class="page-advantages">
+      <section class="page-advantages section">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="list-advantages">
@@ -178,7 +195,7 @@
         </div>
       </section>
 
-      <section class="page-team">
+      <section class="page-team section">
         <div class="container">
           <h2 class="title-team">Our Team</h2>
           <ul class="list-team">
@@ -361,7 +378,7 @@
         </div>
       </section>
 
-      <section class="page-portfolio">
+      <section class="page-portfolio section">
         <div class="container portfolio">
           <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
@@ -567,7 +584,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
