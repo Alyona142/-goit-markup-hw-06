@@ -701,7 +701,7 @@ width: 100%;
  gap: 72px 24px;
     }
 
-    .item-portfolio{
+    .item-portfolio {
         max-width: 356px;
     }
 }
@@ -734,13 +734,13 @@ footer {
     gap: 72px;
 }
 
-.left{
+.left {
     max-width: 288px;
     width: 100%;
     text-align: center;
 }
 
-.footer-logo{
+.footer-logo {
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -750,6 +750,10 @@ footer {
         text-transform: uppercase;
         margin-bottom: 16px;
         display: inline-block;
+}
+
+.logo-footer {
+    color: #f4f4fd;
 }
 
 .text-logo {
@@ -762,7 +766,7 @@ footer {
     color: #f4f4fd;
 }
 
-.media{
+.media {
     color: #fff;
     margin-bottom: 16px;
 }
